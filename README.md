@@ -21,7 +21,7 @@ Telegram Contact: https://t.me/revenyy
 
 # Preview
 With Remap: <br>
-![image_remap](https://github.com/reveny/Android-Library-Remap-Hide/assets/113244907/f99b92f8-8f48-4d50-9617-fba82a814c70)
+![image_remap](https://github.com/reveny/Android-Library-Remap-Hide/blob/main/image_remap.png)
 
 Without Remap:
-![image_no_remap](https://github.com/reveny/Android-Library-Remap-Hide/assets/113244907/24224ef0-c2e7-429e-8608-99ccd256bced)
+![image_remap](https://github.com/reveny/Android-Library-Remap-Hide/blob/main/image_no_remap.png)
