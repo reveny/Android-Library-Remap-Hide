@@ -10,7 +10,7 @@ Remap a library to avoid detection
 All the necessary code is located in /app/src/main/jni/RemapTools.h and can be used in any project. <br>
 Required is that you have 2 separate libraries. One to load everything and the other one containing your own code. <br>
 Here: Loader: libRevenyInjector.so Code: libTest.so. <br>
-Tested on Samsung Galaxy s22 (Android 13)
+Tested on Samsung Galaxy s22 (Android 13)  <br>
 Example: https://github.com/reveny/Android-ImGui-Mod-Menu
 
 # Credit
