@@ -1,6 +1,8 @@
 //
 // Created by reveny on 10/07/2023.
 // Inspired by riru and zygisk
+// This is a single header library
+// Functions are inline to avoid duplicate symbol
 //
 
 #include <cstdint>
@@ -20,7 +22,7 @@ namespace RemapTools {
         char* path;
     };
 
-    std::vector<ProcMapInfo> ListModulesWithName(std::string name) {
+    inline std::vector<ProcMapInfo> ListModulesWithName(std::string name) {
         std::vector<ProcMapInfo> returnVal;
 
         char buffer[512];
@@ -53,7 +55,7 @@ namespace RemapTools {
         return returnVal;
     }
 
-    void RemapLibrary(std::string name) {
+    inline void RemapLibrary(std::string name) {
         std::vector<ProcMapInfo> maps = ListModulesWithName(name);
 
         for (ProcMapInfo info : maps) {
