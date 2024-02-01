@@ -47,7 +47,6 @@ namespace RemapTools {
                     info.dev = dev;
                     info.path = path;
 
-                    LOGI("Line: %s", buffer);
                     returnVal.push_back(info);
                 }
             }
