@@ -35,7 +35,7 @@ namespace RemapTools {
                     char path[255];
                     char dev[25];
 
-                    sscanf(buffer, "%lx-%lx %s %ld %s %ld %s", &info.start, &info.end, perms, &info.offset, dev, &info.inode, path);
+                    sscanf(buffer, "%p-%p %s %p %s %ld %s", (void**)&info.start, (void**)&info.end, perms, (void**)&info.offset, dev, &info.inode, path);
 
                     //Process Perms
                     if (strchr(perms, 'r')) info.perms |= PROT_READ;
